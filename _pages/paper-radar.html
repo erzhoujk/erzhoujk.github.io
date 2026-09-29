@@ -1,0 +1,28 @@
+---
+layout: single
+title: "Paper Radar"
+permalink: /paper-radar/
+author_profile: false
+---
+<link rel="stylesheet" href="{{ '/assets/css/paper-radar.css' | relative_url }}">
+<div class="radar-shell">
+  <header class="radar-hero">
+    <div>
+      <p class="radar-kicker">MULTIMODAL LLM · THREE-DAY DIGEST</p>
+      <h1>捕捉多模态研究信号</h1>
+      <p class="radar-lede">从 arXiv 与 OpenReview 中筛选过去三天值得读的视觉语言、视频理解与具身智能论文。</p>
+    </div>
+    <div class="radar-next"><span>下一次监测</span><strong id="next-run">计算中…</strong><small>每三天自动同步</small></div>
+  </header>
+  <section class="radar-stats"><div><span>本期收录</span><b id="paper-count">—</b><em>篇</em></div><div><span>高相关论文</span><b id="high-count">—</b><em>篇</em></div><div><span>数据来源</span><b id="source-count">—</b><em>个</em></div><div><span>更新状态</span><b id="updated-at">—</b><em>UTC</em></div></section>
+  <div class="radar-grid">
+    <section class="radar-card radar-main"><div class="radar-card-head"><div><h2>本期精选</h2><p id="range-label">加载数据中…</p></div><button class="radar-refresh" id="refresh">↻ 刷新</button></div>
+      <div class="radar-controls"><label class="radar-search">⌕ <input id="search" placeholder="搜索标题、作者、摘要" /></label><div class="radar-filters" id="filters"><button class="active" data-filter="全部">全部</button><button data-filter="视觉语言">视觉语言</button><button data-filter="视频理解">视频理解</button><button data-filter="具身智能">具身智能</button><button data-filter="训练与评测">训练与评测</button></div></div>
+      <div id="papers" class="paper-list"><div class="radar-empty">正在同步论文…</div></div>
+    </section>
+    <aside class="radar-side"><section class="radar-card"><h3>监测设置</h3><div class="setting-row"><span>每三天自动更新</span><button class="switch on" id="schedule" aria-label="切换自动更新"></button></div><label class="setting-label" for="topic">关注方向</label><select id="topic"><option value="全部">多模态大模型（全部）</option><option value="视觉语言">视觉语言模型</option><option value="视频理解">视频理解与生成</option><option value="具身智能">具身智能</option></select><p class="setting-note">更新时间：每 3 天 09:00（北京时间）</p></section><section class="radar-card"><h3>数据来源</h3><div class="source-row"><span>arXiv</span><b id="arxiv-count">—</b></div><div class="source-row"><span>OpenReview</span><b id="openreview-count">—</b></div><p class="setting-note">由 GitHub Actions 定时抓取并更新。</p></section><section class="radar-card focus-card"><h3>阅读提示</h3><p>先看相关度高的论文，再用分类和关键词缩小范围。你的已读记录只保存在当前浏览器中。</p></section></aside>
+  </div>
+</div>
+<div class="radar-toast" id="toast"></div>
+<script>window.PAPER_RADAR_DATA_URL="{{ '/assets/data/papers.json' | relative_url }}";</script>
+<script src="{{ '/assets/js/paper-radar.js' | relative_url }}"></script>
