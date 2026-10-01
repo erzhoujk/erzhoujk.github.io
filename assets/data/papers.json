@@ -1,5 +1,248 @@
 {
-  "updated_at": "2026-09-30T01:00:00Z",
-  "period": "2026.09.27 – 2026.09.30 · 按相关度排序",
-  "papers": []
+  "updated_at": "2026-10-01T06:59:24.369831+00:00",
+  "period": "2026-09-28 – 2026-10-01 · 按相关度排序",
+  "papers": [
+    {
+      "title": "Multimodal Flow: Unified Flow Modeling of Language and Vision in Embedding Spaces",
+      "authors": "Hongyuan Tao, Xinggang Wang, Lianghui Zhu",
+      "source": "arXiv",
+      "date": "2026-09-30",
+      "category": "视觉语言",
+      "abstract": "We present Multimodal Flow, a fully continuous generative model of language and vision. Most unified multimodal models either model both language and quantized images as discrete tokens or combine discrete language prediction with continuous image generation. The former introduces a visual quantization bottleneck. The latter req",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2609.40362v1",
+      "read_time": 15
+    },
+    {
+      "title": "Ranking-Aware Prompt Optimization for Multimodal Clinical Diagnosis",
+      "authors": "Tian Xia, Minghao Liu, Yiqing Liang",
+      "source": "arXiv",
+      "date": "2026-09-30",
+      "category": "训练与评测",
+      "abstract": "Multimodal large language models (MLLMs) are rapidly advancing clinical diagnosis, yet their adaptation pipelines remain anchored to accuracy-based objectives. Clinical data are heavily class-imbalanced: a constant-majority predictor can score above 90% accuracy while being clinically useless. We therefore evaluate and optimize ",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2609.40361v1",
+      "read_time": 15
+    },
+    {
+      "title": "WorldAuditBench: Interactive 3D World Auditing with Multimodal Agents",
+      "authors": "Ziyan Jiang, Jingbo Yang, Jiabao Ji",
+      "source": "arXiv",
+      "date": "2026-09-30",
+      "category": "具身智能",
+      "abstract": "As interactive 3D worlds are increasingly used to study intelligent behavior, it becomes important to develop efficient pipelines for identifying anomalies in these simulated environments, such as floating objects, traversable walls, or objects inconsistent with the surrounding scene. Multimodal AI systems, including vision-lang",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2609.40325v1",
+      "read_time": 14
+    },
+    {
+      "title": "EviRover: Reinforcing Agentic Perception Beyond a Glance",
+      "authors": "Kaixuan Fan, Kaituo Feng, Tianshuo Peng",
+      "source": "arXiv",
+      "date": "2026-09-30",
+      "category": "训练与评测",
+      "abstract": "Visual perception is conventionally formulated as a one-shot prediction from a single glance at the image, under the assumption that the image content and the model's parametric knowledge suffice to resolve the query. This assumption often fails in real-world scenarios that hinge on fine-grained visual details or require knowled",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2609.40230v1",
+      "read_time": 12
+    },
+    {
+      "title": "MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories",
+      "authors": "Guangzhi Xiong, Xinyuan Zhang, Xiao Yang",
+      "source": "arXiv",
+      "date": "2026-09-30",
+      "category": "视频理解",
+      "abstract": "Long-term egocentric video enables personalized AI assistants to reason about daily life. However, as video histories grow to hundreds of hours spanning months or years, reprocessing raw clips for every query becomes computationally prohibitive. Memory systems offer a scalable alternative by compacting videos into text represent",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2609.40195v1",
+      "read_time": 11
+    },
+    {
+      "title": "Tactile Curiosity Drives Robot Interaction",
+      "authors": "Klemens Iten, Alexander Proshkin, Bhavya Sukhija",
+      "source": "arXiv",
+      "date": "2026-09-30",
+      "category": "具身智能",
+      "abstract": "Mastering robot manipulation skills via reinforcement learning (RL) remains largely sample-inefficient. The most common RL algorithms rely on random action sampling to discover new strategies, resulting in agents that allocate most of their training budget to motions in free space, away from the contacts from which manipulation ",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2609.40134v1",
+      "read_time": 13
+    },
+    {
+      "title": "GateSPINE: Gated Cross-View Fusion for Lumbar Spine MRI Report Generation",
+      "authors": "Hoang Nguyen Van, Cuong Vuong Tuan, Trang Mai Xuan",
+      "source": "arXiv",
+      "date": "2026-09-30",
+      "category": "视觉语言",
+      "abstract": "Automated report generation can ease the burden radiolo gists face when interpreting multi-sequence MRI studies. Unlike CT, MRI examinations comprise multiple sequences and imaging planes, each con tributing complementary diagnostic information. Existing methods en code a study as a single volume and combine multiple acquisition",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2609.40091v1",
+      "read_time": 13
+    },
+    {
+      "title": "LongEmo: Towards Emotion Understanding and Reasoning in Long Videos",
+      "authors": "Shuo Zhang, Yifan Zhou, Han Wang",
+      "source": "arXiv",
+      "date": "2026-09-30",
+      "category": "视频理解",
+      "abstract": "While recent Multimodal Large Language Models (MLLMs) have shown promise in affective computing, their reasoning capabilities are largely confined to short video clips with limited interactions. However, real-world emotions are not merely isolated instantaneous reactions but dynamic and cumulative processes deeply shaped by past",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2609.40079v1",
+      "read_time": 12
+    },
+    {
+      "title": "Less Data, Better Timing: Student-Curriculum Coupling for VLM On-Policy Distillation in Temporal Video Grounding",
+      "authors": "Jiacheng Qiu, Yunsoo Kim, Ruichen Xu",
+      "source": "arXiv",
+      "date": "2026-09-30",
+      "category": "视频理解",
+      "abstract": "On-policy distillation (OPD) provides dense supervision directly on student-generated trajectories, making it an effective post-training strategy for vision-language models in temporal video grounding (TVG). However, existing pipelines typically construct the training curriculum from a fixed teacher and the initial student state",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2609.40055v1",
+      "read_time": 14
+    },
+    {
+      "title": "CoEvoWhen: Policy-Tool Coevolution for Ultra-Long Video Temporal Grounding",
+      "authors": "Yiduo Jia, Muzhi Zhu, Jinchuan Shi",
+      "source": "arXiv",
+      "date": "2026-09-30",
+      "category": "视频理解",
+      "abstract": "Ultra-long video temporal grounding requires balancing long-range evidence search with fine-grained event understanding under a limited visual budget, yet existing agentic methods still rely largely on predefined policies and tool capabilities. Motivated by this, we propose a novel policy-tool coevolution framework that jointly ",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2609.40048v1",
+      "read_time": 13
+    },
+    {
+      "title": "Can We Anticipate Violence? Multimodal Learning from Pre-Incident Behavioral Cues",
+      "authors": "Sindhuja Penchala, Mohammed Yusuf Mujawar, Noorbakhsh Amiri Golilarz",
+      "source": "arXiv",
+      "date": "2026-09-30",
+      "category": "视频理解",
+      "abstract": "Detecting violence after it begins is important from recognizing behavioral cues that appear immediately beforehand. This work studies short-horizon pre-incident risk recognition from multimodal video signals. We construct a binary Normal-versus-Risky setting from temporally annotated XD-Violence clips, using 443 samples with so",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2609.40014v1",
+      "read_time": 12
+    },
+    {
+      "title": "Multi-Link Safety Filtering for VLA Policies Around Moving Hazards",
+      "authors": "Yatharth Agarwal, Vijay Raghunathan",
+      "source": "arXiv",
+      "date": "2026-09-30",
+      "category": "具身智能",
+      "abstract": "A vision-language-action (VLA) policy can finish a manipulation task while knocking over objects unrelated to it, so task success alone does not show that the policy is safe to deploy in clutter. We study how to keep a pretrained VLA policy clear of such hazards at run time without retraining it, which requires guarding more of ",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2609.40007v1",
+      "read_time": 13
+    },
+    {
+      "title": "TACTIC: Temporal and Context-Aware LLM Tactical Planning for Roadside LiDAR Attacks",
+      "authors": "Yiming Gao, Shaocheng Luo",
+      "source": "arXiv",
+      "date": "2026-09-30",
+      "category": "视觉语言",
+      "abstract": "Physical LiDAR attacks are often evaluated using fixed primitives and manually selected parameters, despite their strong dependence on surrounding traffic. We present TACTIC, a scene-aware framework that uses a multimodal large language model (MLLM) to coordinate state-adaptive roadside LiDAR attacks. Under a gray-box threat mod",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2609.39969v1",
+      "read_time": 15
+    },
+    {
+      "title": "Learning to Reason with Compressed Context: Ground-Truth-Free Adaptation of OmniLLMs via Self-Distillation",
+      "authors": "Jianghao Wang, Ke Meng, Jian Li",
+      "source": "arXiv",
+      "date": "2026-09-30",
+      "category": "视频理解",
+      "abstract": "Omni-modal large language models (OmniLLMs) enable unified audio-video understanding, but their long multimodal token sequences make deployment computationally expensive. Token compression reduces this cost, yet aggressive compression often lowers accuracy. Existing works predominantly focus on designing better compression mecha",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2609.39953v1",
+      "read_time": 13
+    },
+    {
+      "title": "CoVisco: Codec-Native Vision Encoder with Native Token Compression for Unified Image-Video Understanding",
+      "authors": "Yulong Liu, Xiaotian Han, Junyuan Shang",
+      "source": "arXiv",
+      "date": "2026-09-30",
+      "category": "视频理解",
+      "abstract": "Vision-language models face a fundamental scaling bottleneck: the number of visual tokens grows with both temporal duration and spatial resolution, making long-video understanding expensive for the vision encoder and the language model. Existing methods often compress visual tokens after dense encoding, creating a mismatch betwe",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2609.39924v1",
+      "read_time": 15
+    },
+    {
+      "title": "MCD: Causal Distillation of Multimodal In-Context Learning in Large Vision-Language Models",
+      "authors": "Yanshu Li, Jiaqian Li, Canran Xiao",
+      "source": "arXiv",
+      "date": "2026-09-30",
+      "category": "训练与评测",
+      "abstract": "Large vision-language models (LVLMs) exhibit strong multimodal in-context learning (ICL) capabilities, yet this ability degrades substantially as model size decreases. Knowledge distillation offers a natural way to bridge this gap, but existing methods primarily align output distributions or hidden representations directly. Such",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2609.39920v1",
+      "read_time": 12
+    },
+    {
+      "title": "NavHarness: Adaptive Goals for Agentic Vision-Language Navigation",
+      "authors": "Haoxiang Shi, Zaijing Li, Muhe Ding",
+      "source": "arXiv",
+      "date": "2026-09-30",
+      "category": "具身智能",
+      "abstract": "Vision-Language Navigation (VLN) requires embodied agents to generate actions based on instructions and observations. General-purpose multimodal agents offer a promising basis for this task, but selecting plausible local actions does not ensure that execution remains consistent with the intended route, particularly in long-horiz",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2609.39915v1",
+      "read_time": 14
+    },
+    {
+      "title": "Learning Where to Look: Anatomical Grounding and Guided Attention for Cardiac MRI Vision-Language Models",
+      "authors": "Bangwei Guo, Xiao Chen, Boris Mailhe",
+      "source": "arXiv",
+      "date": "2026-09-30",
+      "category": "视觉语言",
+      "abstract": "Cardiac magnetic resonance imaging (CMR) enables assessment of cardiac anatomy, ventricular function, and myocardial tissue characteristics. Clinicians interpret these images by identifying cardiac structures and focusing on the regions relevant to each clinical question, motivating anatomically guided vision-language models (VL",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2609.39899v1",
+      "read_time": 13
+    },
+    {
+      "title": "BayesNDE: Bayesian Generative Modeling for Neural Density Estimation",
+      "authors": "Chenglin Li, Qiao Liu",
+      "source": "arXiv",
+      "date": "2026-09-30",
+      "category": "视觉语言",
+      "abstract": "Density estimation is a fundamental problem in statistics and machine learning. In this work, we introduce BayesNDE, a neural density estimator based on Bayesian generative modeling. BayesNDE learns a Bayesian generative model and evaluates its density without requiring invertible networks or Jacobian-determinant computation. Fo",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2609.39843v1",
+      "read_time": 11
+    },
+    {
+      "title": "Spherical Interpolation for Backward-Compatible Multimodal Representations",
+      "authors": "Simone Ricci, Niccolò Biondi, Federico Pernici",
+      "source": "arXiv",
+      "date": "2026-09-30",
+      "category": "训练与评测",
+      "abstract": "Contrastive vision-language models map visual and textual representations into a shared normalized embedding space, making cosine similarity the natural metric for cross-modal retrieval. A practical challenge arises during model upgrades: independently trained models generally produce incompatible representation spaces, so repla",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2609.39836v1",
+      "read_time": 14
+    },
+    {
+      "title": "Learning from Runtime Feedback through Failure-Bank Self-Evolution for Vision-Language-Action Models",
+      "authors": "Mingyue Cui, Zheyuan Liu, Yihan Zhu",
+      "source": "arXiv",
+      "date": "2026-09-30",
+      "category": "具身智能",
+      "abstract": "Vision-language-action (VLA) models generalize broadly across robotic manipulation tasks, but complex environments require balancing task success with unintended contact. Runtime shields can correct individual actions, but they leave the underlying policy unchanged, so repeated disagreements may create a persistent policy-shield",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2609.39820v1",
+      "read_time": 13
+    },
+    {
+      "title": "Inline Memory Meets Reusable Skills: Memory-centric Framework for Vision-Language-Action Model",
+      "authors": "Zaijing Li, Rui Shao, Bing Hu",
+      "source": "arXiv",
+      "date": "2026-09-30",
+      "category": "具身智能",
+      "abstract": "Vision-Language-Action (VLA) models have shown strong promise for general-purpose robotic manipulation, yet adapting them to new tasks and domains remains inefficient: existing methods often rely on parameter tuning, incurring substantial costs and risking catastrophic forgetting of previously learned tasks. To address this, we ",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2609.39794v1",
+      "read_time": 12
+    }
+  ]
 }
