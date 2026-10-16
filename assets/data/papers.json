@@ -1,5 +1,259 @@
 {
-  "updated_at": "2026-10-13T07:28:39.474907+00:00",
-  "period": "2026-10-10 – 2026-10-13 · 按相关度排序",
-  "papers": []
+  "updated_at": "2026-10-16T05:35:45.580853+00:00",
+  "period": "2026-10-13 – 2026-10-16 · 按相关度排序",
+  "papers": [
+    {
+      "title": "Perceive, Predict, and Plan: a Unified World Action Model for Egocentric Dexterous Manipulation",
+      "authors": "Zirui Wu, Chen Guo, Tianjian Jiang",
+      "source": "arXiv",
+      "date": "2026-10-15",
+      "category": "视频理解",
+      "abstract": "We introduce P$^{3}$-WAM, a unified world action model for egocentric dexterous manipulation that learns 3D perception, action-conditioned prediction, and goal-directed planning through three complementary modes: Perceive, which reconstructs articulated hand motion and camera trajectories from video; Predict, which generates vis",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2610.22363v1",
+      "read_time": 13
+    },
+    {
+      "title": "CoDA: Co-Evolution of Data Engines and Action Policies",
+      "authors": "Tianjiao Yu, Zhilin Ou, Yifan Shen",
+      "source": "arXiv",
+      "date": "2026-10-15",
+      "category": "具身智能",
+      "abstract": "Generative simulation can automate robot environment construction, but physically valid environments are not necessarily useful for training. The challenge is to identify environments that address a policy's failures and supervision that helps it overcome them. We introduce CoDA, a framework in which a simulation data engine and",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2610.22362v1",
+      "read_time": 12
+    },
+    {
+      "title": "Grounding Generative Verification in 3D Content",
+      "authors": "Shuanglin Li, Jiaying Lin, Shuquan Ye",
+      "source": "arXiv",
+      "date": "2026-10-15",
+      "category": "训练与评测",
+      "abstract": "Recent advances in multimodal large language models (MLLMs) and 3D generation have expanded 3D understanding and synthesis. However, beyond visual fidelity, task-specific correctness grounded in 3D evidence remains a major challenge. We argue that building reliable 3D systems requires not only stronger generation and reasoning, ",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2610.22360v1",
+      "read_time": 15
+    },
+    {
+      "title": "DK-VLM: Geometry as Position for Spatial Reasoning in Vision-Language Models",
+      "authors": "Han Su, Meng Tian, Tianyu Huang",
+      "source": "arXiv",
+      "date": "2026-10-15",
+      "category": "视频理解",
+      "abstract": "Vision-language models still struggle to understand 3D spatial relations across views and update spatial judgments as the observer moves. A common approach fuses 3D reconstruction features into visual tokens, but aligning these features with pretrained semantic representations remains challenging under limited spatial supervisio",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2610.22356v1",
+      "read_time": 13
+    },
+    {
+      "title": "OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling",
+      "authors": "Bowei Liu, Xinchen Zhang, Xuhuan Li",
+      "source": "arXiv",
+      "date": "2026-10-15",
+      "category": "视觉语言",
+      "abstract": "Generative visual verifiers play a crucial role in advancing multimodal intelligence. To enhance the robustness of visual verifiers in complex multimodal scenarios involving compositional requirements, we move beyond conventional binary verifiers that produce only True/False discrete judgments and introduce a verifier that autom",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2610.22355v1",
+      "read_time": 15
+    },
+    {
+      "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
+      "authors": "Luozheng Qin, Yuhan Zhu, Changhai Zhou",
+      "source": "arXiv",
+      "date": "2026-10-15",
+      "category": "训练与评测",
+      "abstract": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2610.22276v1",
+      "read_time": 14
+    },
+    {
+      "title": "MMSearch-OPD: Easy Made Hard, Hard Made Learnable for Long-Horizon Multimodal Search Agents",
+      "authors": "Huanyao Zhang, Jiepeng Zhou, Jiaye Lin",
+      "source": "arXiv",
+      "date": "2026-10-15",
+      "category": "视觉语言",
+      "abstract": "Multimodal deep search is moving from short queries to long-horizon investigations that continually acquire evidence. However, training such agents remains constrained by limited challenging training questions and insufficient process feedback. We introduce MMSearch-OPD, combining controllable data refinement with joint reinforc",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2610.22240v1",
+      "read_time": 10
+    },
+    {
+      "title": "OS-Helix: Unifying GUI Interaction and Code Execution in Native Computer-Using Agents",
+      "authors": "Bowen Yang, Kaiming Jin, Zichen Ding",
+      "source": "arXiv",
+      "date": "2026-10-15",
+      "category": "视觉语言",
+      "abstract": "Real desktop automation is neither purely visual nor purely programmatic. Agents must understand user-facing interfaces while efficiently manipulating files, scripts, and system state. However, native GUI/code coordination cannot be obtained by prompt-level tool composition. In our preliminary experiments, naively adding a code ",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2610.22234v1",
+      "read_time": 15
+    },
+    {
+      "title": "Skill-Decoupled On-Policy Expert Distillation for Unified Vision-Language Models",
+      "authors": "Yuqi Xiong, Chunyi Peng, Zhipeng Xu",
+      "source": "arXiv",
+      "date": "2026-10-15",
+      "category": "训练与评测",
+      "abstract": "Reinforcement learning (RL) can elicit specialized visual capabilities in vision-language models (VLMs), yet jointly optimizing heterogeneous objectives often introduces cross-capability gradient conflicts. Training experts independently mitigates this interference, but direct reward optimization may entangle specialized knowled",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2610.22217v1",
+      "read_time": 12
+    },
+    {
+      "title": "FutureLift: Lifting Trajectory Proposals into Bidirectional Future Graphs for Motion Forecasting",
+      "authors": "Daniel Grimm, J. Marius Zöllner",
+      "source": "arXiv",
+      "date": "2026-10-15",
+      "category": "视觉语言",
+      "abstract": "Accurate motion prediction is critical for safe autonomous driving, yet even strong forecasters leave residual errors in their multimodal proposals. Existing refiners compress complete proposals or update their segments sequentially, preventing the full proposed future from serving as explicit relational context for correction. ",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2610.22215v1",
+      "read_time": 12
+    },
+    {
+      "title": "LAMP: Layerwise Adaptive Mixing of Predictors for Training-Free Few-Shot Vision-Language Adaptation",
+      "authors": "Zhipeng Ye, Feng Jiang, Qiufeng Wang",
+      "source": "arXiv",
+      "date": "2026-10-15",
+      "category": "视觉语言",
+      "abstract": "Few-shot adaptation often relies on an encoder's final global representation, leaving complementary information in intermediate layers underused. Combining these features is challenging because their dimensions can differ and their usefulness varies across tasks. We propose LAMP, Layerwise Adaptive Mixing of Predictors, a traini",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2610.22182v1",
+      "read_time": 14
+    },
+    {
+      "title": "REKI: Registering Knowledge in VLAs",
+      "authors": "Juliette Marrie, Paul Pacaud, Adrien Ramanana Rahary",
+      "source": "arXiv",
+      "date": "2026-10-15",
+      "category": "具身智能",
+      "abstract": "We introduce REKI, a 2.4B vision-language-action model (VLA) pretrained exclusively on public data that sets a new Pareto frontier between performance and model size: on LIBERO-Plus, RoboTwin Clean2Rand and RoboCasa365, it is outperformed only by models about twice its size. REKI consists of a vision-language model (VLM) followe",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2610.22178v1",
+      "read_time": 11
+    },
+    {
+      "title": "Realtime-Bench: Can Frontier Models Solve Real-time Interactive Problems?",
+      "authors": "Jingyu Tang, Xu Yang, Zhehao Zhang",
+      "source": "arXiv",
+      "date": "2026-10-15",
+      "category": "训练与评测",
+      "abstract": "Real-time interaction requires agents to perceive evolving environments and act under temporal constraints, yet existing evaluations of real-time streaming models focus on conversational quality and streaming perception, leaving effective action under strict temporal constraints untested. We introduce Realtime-Bench, a suite of ",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2610.22155v1",
+      "read_time": 12
+    },
+    {
+      "title": "CART: Compatible Routing for Multimodal Continual Instruction Tuning",
+      "authors": "Ling-Xiang Zhang, Tao Hu, Da-Wei Zhou",
+      "source": "arXiv",
+      "date": "2026-10-15",
+      "category": "视觉语言",
+      "abstract": "Multimodal Large Language Models (MLLMs) achieve strong performance through instruction tuning, yet real-world applications often require them to continually acquire new capabilities from sequential tasks, i.e., Multimodal Continual Instruction Tuning (MCIT). In typical MLLMs, a projector is employed to align visual representati",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2610.22137v1",
+      "read_time": 12
+    },
+    {
+      "title": "Intern-Decision: Efficient Multimodal Decision Making with Autoregressive Masked Language Modeling",
+      "authors": "Tong Zhu, Zhe Xu, Zefeng He",
+      "source": "arXiv",
+      "date": "2026-10-15",
+      "category": "训练与评测",
+      "abstract": "Interactive agents repeatedly choose among a finite set of actions, labels, or ordinal outcomes. Generating a free-form response for each choice adds latency and complicates the interface between a model and its environment. We present Intern-Decision, a family of 0.8B, 2B, and 4B multimodal decision models that return structure",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2610.22131v1",
+      "read_time": 13
+    },
+    {
+      "title": "SCCL-DT: Semantic-Conflict-Aware Contrastive Learning with Dual-Rule Teacher Distillation for Zero-Shot Chest X-Ray Diagnosis",
+      "authors": "Ting Liu, Haoran Lai,  HaobinChen",
+      "source": "arXiv",
+      "date": "2026-10-15",
+      "category": "训练与评测",
+      "abstract": "Contrastive vision-language pre-training supports zero-shot chest X-ray diagnosis, but standard objectives treat every off-diagonal image-report pair in a batch as a negative. In radiology, recurring findings across patients mean that instance mismatch need not imply semantic incompatibility, creating false-negative supervision ",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2610.22094v1",
+      "read_time": 12
+    },
+    {
+      "title": "Retrofitting Recurrent Vision-Language Models from Pretrained Backbones",
+      "authors": "Madhav Iyengar, Andreas Geiger, Hilde Kühne",
+      "source": "arXiv",
+      "date": "2026-10-15",
+      "category": "训练与评测",
+      "abstract": "Recent work shows that depth recurrence can be retrofitted into pretrained language models. In this work, we adapt this paradigm for visual understanding, using depth recurrence to reduce the parameter footprint of a pretrained vision-language model (VLM). To this end, we prune layers from the language backbone of the VLM and lo",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2610.22075v1",
+      "read_time": 15
+    },
+    {
+      "title": "Memory as Weights: Internalizing Long-Term History for Streaming Videos",
+      "authors": "Zhuoming Liu, Jinhong Lin, Lin Zhang",
+      "source": "arXiv",
+      "date": "2026-10-15",
+      "category": "视频理解",
+      "abstract": "Streaming vision-language models (VLMs) must continuously integrate information from the past while remaining responsive to current observations and user queries. Existing memory mechanisms typically compress, retrieve, or cache historical observations and reintroduce them into the input context, forcing historical memory and cu",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2610.22070v1",
+      "read_time": 13
+    },
+    {
+      "title": "When Reasoning Is Not Enough: Proactive Inquiry for Cross-Modal Safety in Multimodal Large Language Models",
+      "authors": "Wei Cai, Jian Zhao, Yuchen Yuan",
+      "source": "arXiv",
+      "date": "2026-10-15",
+      "category": "训练与评测",
+      "abstract": "Multimodal large language models (MLLMs) can act unsafely when individually benign images and texts are interpreted jointly. Beyond implicit reasoning risk, where reasoning drifts toward harm, we identify intent-level risk, where cross-modal ambiguity silently commits the model to a hazardous premise that path-level optimization",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2610.22068v1",
+      "read_time": 10
+    },
+    {
+      "title": "Decoding Naturalistic Speech from fMRI with Temporal Modeling and Multimodal Alignment",
+      "authors": "Corentin Caris, Louis Jalouzot, Nona Rajabi",
+      "source": "arXiv",
+      "date": "2026-10-15",
+      "category": "视觉语言",
+      "abstract": "Reconstructing what a person perceives from their brain activity is a stringent test of whether neural recordings carry meaningful information. Naturalistic speech offers a rich testbed for this challenge: it unfolds over multiple timescales, but fMRI's noisy, temporally smeared measurements make this structure hard to recover. ",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2610.22049v1",
+      "read_time": 11
+    },
+    {
+      "title": "Visual Sanad: Auditing Vision-Language Models for False Acceptance of Qur'anic Citations",
+      "authors": "Niaz Mohaiman Abtahi, Reyana Shahid, Evan Maksud",
+      "source": "arXiv",
+      "date": "2026-10-15",
+      "category": "训练与评测",
+      "abstract": "Vision-language models (VLMs) are increasingly used to interpret religious, educational, and culturally sensitive visual content, yet their reliability on citation verification remains underexplored. We introduce Visual Sanad, a controlled benchmark for testing whether VLMs falsely accept incorrect Qur'anic verse attributions wh",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2610.22009v1",
+      "read_time": 12
+    },
+    {
+      "title": "Following Delegation Traces to Study Human Oversight in Interaction with Multimodal AI",
+      "authors": "Agnese Chiatti, Matteo Matteucci, Viola Schiaffonati",
+      "source": "arXiv",
+      "date": "2026-10-15",
+      "category": "视频理解",
+      "abstract": "As multimodal AI systems are becoming our everyday thought partners, the shift towards studying how users transfer control to these systems becomes especially urgent. In this paper, we report an overview of findings from an online study with n=56 AI-literate participants and 392 Video Question Answering trials. After inspecting ",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2610.21948v1",
+      "read_time": 12
+    },
+    {
+      "title": "Flow-CLIP: Image-Conditioned Residual Scoring for CompositionalImage-Text Matching",
+      "authors": "Minghong Wei, Enguang Zhu, Pu Cao",
+      "source": "arXiv",
+      "date": "2026-10-15",
+      "category": "训练与评测",
+      "abstract": "Vision--language pre-training has enabled substantial progress in image--text retrieval and zero-shot recognition by learning transferable cross-modal representations. However, sentence-level alignment remains insufficient for compositional matching, where captions can describe the same objects and attributes while differing in ",
+      "score": 90,
+      "url": "https://arxiv.org/abs/2610.21937v1",
+      "read_time": 12
+    }
+  ]
 }
